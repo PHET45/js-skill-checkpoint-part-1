@@ -1,13 +1,13 @@
 // Question #3
-let userPassword = "066";
+let userPassword = "066999";
 // เริ่มเขียนโค้ดตรงนี้
 let checkPasswordStrength = (userPassword) => {
-    for (let i = 0;i < userPassword.length;i++){
-        count = userPassword.length
-    };
+    
+    count = userPassword.length
+    
     if(count < 6 && count > 0){
         result = "Weak"
-    } else if (count < 10 && count > 6){
+    } else if (count <= 10 && count >= 6){
         result = "Medium"
     } else {
         result = "Strong"
